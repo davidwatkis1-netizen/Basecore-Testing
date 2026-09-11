@@ -1,0 +1,162 @@
+{
+  "site": {
+    "id": "b3a2f6b0-6a4b-4a19-8e2e-1a2f3c4d5e6f",
+    "site_reference": "BAS-2026-0031",
+    "site_name": "Land off Poplar Farm Lane, Meppershall",
+    "address": "Land adjacent to Poplar Farm Lane, Meppershall, Central Bedfordshire",
+    "postcode": "SG17 5LT",
+    "local_planning_authority": "Central Bedfordshire Council",
+    "current_land_use": "Redundant agricultural yard / hardstanding",
+    "proposed_development_type": "Residential-led, low-density",
+    "dwelling_capacity": { "low": 6, "base": 8, "high": 10 },
+    "area_ha": 0.42,
+    "area_sqm": 4200,
+    "status": "feasibility",
+    "confidentiality": "restricted",
+    "created_by": "d.watkis@basecore.co.uk",
+    "created_at": "2026-07-14T09:12:00Z"
+  },
+  "boundary": {
+    "version_number": 2,
+    "source_method": "drawn",
+    "geometry_epsg_4326": {
+      "type": "Polygon",
+      "coordinates": [[
+        [-0.36021, 52.05587],
+        [-0.35932, 52.05601],
+        [-0.35911, 52.05548],
+        [-0.36004, 52.05531],
+        [-0.36021, 52.05587]
+      ]]
+    }
+  },
+  "screening_run": {
+    "id": "9f1c2b3a-4d5e-6f70-8192-a3b4c5d6e7f8",
+    "buffers_m": { "immediate": 50, "context": 250, "comparables": 500 },
+    "status": "complete",
+    "completed_at": "2026-07-14T09:20:00Z",
+    "results_summary": [
+      {
+        "theme": "planning_policy",
+        "feature_name": "Settlement Envelope - Meppershall",
+        "buffer_band": "within_site",
+        "distance_m": 0,
+        "source": "Central Bedfordshire Local Plan Policy Map",
+        "screening_interpretation": "Site lies within the defined settlement envelope.",
+        "data_confidence": "automated"
+      },
+      {
+        "theme": "planning_policy",
+        "feature_name": "Green Belt",
+        "buffer_band": null,
+        "distance_m": 1450,
+        "source": "planning.data.gov.uk",
+        "screening_interpretation": "No Green Belt designation intersects the site or buffers.",
+        "data_confidence": "automated"
+      },
+      {
+        "theme": "flood_drainage",
+        "feature_name": "Flood Zone 2",
+        "buffer_band": "context",
+        "distance_m": 190,
+        "source": "EA Flood Map for Planning (retrieved 2026-07-14)",
+        "screening_interpretation": "Flood Zone 2 present 190 m from site boundary, associated with an unnamed ordinary watercourse; does not intersect the site itself. FRA not automatically triggered by Flood Zone but drainage strategy required regardless.",
+        "data_confidence": "automated"
+      },
+      {
+        "theme": "heritage_archaeology",
+        "feature_name": "Church of St Thomas a Becket (Grade II*)",
+        "buffer_band": "context",
+        "distance_m": 210,
+        "source": "Historic England NHLE",
+        "screening_interpretation": "Listed building 210 m from site; intervening built form likely limits intervisibility but a heritage setting screening note is recommended.",
+        "data_confidence": "automated"
+      },
+      {
+        "theme": "ecology_trees_bng",
+        "feature_name": "No statutory designation found",
+        "buffer_band": null,
+        "distance_m": null,
+        "source": "MAGIC / Natural England",
+        "screening_interpretation": "No SSSI/SAC/SPA/LNR intersects site or buffers. Priority Habitat (traditional orchard) recorded 80 m north.",
+        "data_confidence": "automated"
+      },
+      {
+        "theme": "ground_contamination",
+        "feature_name": "Former agricultural yard / hardstanding",
+        "buffer_band": "within_site",
+        "distance_m": 0,
+        "source": "Historic OS mapping + site description (manual)",
+        "screening_interpretation": "Former yard use indicates potential made ground and low-level contamination risk; Phase 1 desk study recommended.",
+        "data_confidence": "manual_entry"
+      },
+      {
+        "theme": "highways_access",
+        "feature_name": "Poplar Farm Lane (unclassified)",
+        "buffer_band": "within_site",
+        "distance_m": 0,
+        "source": "OS Open Roads",
+        "screening_interpretation": "Site has frontage to an unclassified road. Adoption status not confirmed with the Highway Authority.",
+        "data_confidence": "automated"
+      }
+    ],
+    "data_gaps": [
+      "Central Bedfordshire brownfield land register: no GIS layer published for this parish at time of retrieval; checked manually against the published PDF register.",
+      "Local Wildlife Sites layer: no public GIS download available for this area; manual check against Wildlife Trust records recommended."
+    ]
+  },
+  "technical_assessment": {
+    "highways_access": {
+      "proposed_access_location": "Existing field gate off Poplar Farm Lane",
+      "access_width_m": 4.8,
+      "apparent_visibility": "Appears constrained to the west by roadside hedge; survey required",
+      "junction_capacity_risk": "low",
+      "third_party_land_required": false,
+      "highway_risk_score": 3
+    },
+    "drainage_flood": {
+      "surface_water_hierarchy_position": "Infiltration untested",
+      "infiltration_suitability": "Unknown - superficial geology suggests clay, infiltration testing required",
+      "discharge_route": "Not yet confirmed",
+      "foul_drainage_route": "Assumed connection to existing public foul sewer in Poplar Farm Lane, unconfirmed"
+    }
+  },
+  "commercial_appraisal": {
+    "version": 1,
+    "dwelling_mix": [
+      { "type": "2-bed semi", "count": 3, "gia_sqm": 75 },
+      { "type": "3-bed semi", "count": 3, "gia_sqm": 92 },
+      { "type": "4-bed detached", "count": 2, "gia_sqm": 120 }
+    ],
+    "assumed_sales_value_per_sqm": 3450,
+    "gdv": 2180000,
+    "affordable_housing_pct": 0,
+    "build_cost_per_sqm": 1950,
+    "professional_fees_pct": 10,
+    "contingency_pct": 5,
+    "developer_profit_pct": 20,
+    "residual_land_value": 615000,
+    "promoter_percentage": 15,
+    "assumptions_date": "2026-07-10",
+    "is_formal_valuation": false
+  },
+  "risk_scores_extract": [
+    { "category": "planning_principle_policy", "score": 2, "rag_status": "green", "classification": "manageable" },
+    { "category": "flood_risk_drainage", "score": 3, "rag_status": "amber", "classification": "gate_issue" },
+    { "category": "ground_contamination", "score": 3, "rag_status": "amber", "classification": "gate_issue" },
+    { "category": "highways_transport", "score": 3, "rag_status": "amber", "classification": "gate_issue" },
+    { "category": "title_ownership_legal_access", "score": 2, "rag_status": "green", "classification": "manageable" }
+  ],
+  "recommendation": {
+    "assessment_version": 1,
+    "recommendation": "proceed_to_feasibility",
+    "basis": "No hard-stop categories identified. Three gate issues (drainage, ground conditions, highway visibility) are considered resolvable through standard investigation within the feasibility budget.",
+    "critical_uncertainties": [
+      "Infiltration/discharge route for surface water not yet confirmed",
+      "Visibility splay at proposed access not yet surveyed",
+      "Made-ground extent from former yard use not yet investigated"
+    ],
+    "next_stage_scope": "Topographical survey; preliminary drainage strategy and infiltration testing; Phase 1 desk study; visibility splay survey; title review instruction.",
+    "next_stage_cost_cap": 12500
+  }
+}

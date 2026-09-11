@@ -1,0 +1,31 @@
+name,provider,url,licence,access_method,update_frequency,geographic_coverage,required_attribution
+Planning Data Platform,MHCLG,https://www.planning.data.gov.uk/,OGL v3.0,rest_api,Rolling,England,Contains public sector information licensed under the Open Government Licence v3.0
+PlanIt,PlanIt (aggregator),https://www.planit.org.uk/,Publisher terms,rest_api,Daily,England,Data sourced from local planning authority public registers via PlanIt
+Planning Inspectorate Appeals,The Planning Inspectorate,https://acp.planninginspectorate.gov.uk/,OGL v3.0,manual_download,Daily,England,Contains public sector information licensed under the Open Government Licence v3.0
+Flood Map for Planning,Environment Agency,https://flood-map-for-planning.service.gov.uk/,OGL v3.0,wms,Periodic,England,Contains Environment Agency information (c) Environment Agency and database right
+Check Long Term Flood Risk,Environment Agency,https://check-long-term-flood-risk.service.gov.uk/map,OGL v3.0,wms,Periodic,England,Contains Environment Agency information (c) Environment Agency and database right
+EA Open Data Hub,Environment Agency,https://environment.data.gov.uk/,OGL v3.0,rest_api,Varies,England,Contains Environment Agency information (c) Environment Agency and database right
+EA Flood Monitoring API,Environment Agency,https://environment.data.gov.uk/flood-monitoring/doc/reference,OGL v3.0,rest_api,Real-time,England,Contains Environment Agency information (c) Environment Agency and database right
+OS Open Rivers,Ordnance Survey,https://osdatahub.os.uk/downloads/open/OpenRivers,OS OpenData Licence,manual_download,Periodic,Great Britain,Contains OS data (c) Crown copyright and database right
+MAGIC Map,Defra / Natural England,https://magic.defra.gov.uk/,OGL v3.0,wfs,Periodic,England,Contains public sector information licensed under the Open Government Licence v3.0
+Natural England Open Data Geoportal,Natural England,https://naturalengland-defra.opendata.arcgis.com/,OGL v3.0,rest_api,Periodic,England,Contains public sector information licensed under the Open Government Licence v3.0
+Ancient Tree Inventory,Woodland Trust,https://ati.woodlandtrust.org.uk/,Woodland Trust terms,manual_download,Ad hoc,UK,Data (c) Woodland Trust / Ancient Tree Inventory contributors
+National Heritage List for England,Historic England,https://historicengland.org.uk/listing/the-list/,OGL v3.0,rest_api,Periodic,England,Contains Historic England data (c) Historic England
+Historic England Data Downloads,Historic England,https://historicengland.org.uk/services-skills/our-planning-services/data-downloads/,OGL v3.0,manual_download,Periodic,England,Contains Historic England data (c) Historic England
+BGS Geology of Britain Viewer,British Geological Survey,https://www.bgs.ac.uk/geology-of-britain-viewer/,BGS terms,wms,Periodic,Great Britain,Contains British Geological Survey materials (c) UKRI
+BGS GeoIndex,British Geological Survey,https://www.bgs.ac.uk/technologies/geoindex/,BGS terms,link_out,Periodic,Great Britain,Contains British Geological Survey materials (c) UKRI
+Coal Authority Interactive Map,The Coal Authority,https://www.gov.uk/guidance/coal-mining-reports-request-one-for-a-residential-property,OGL v3.0 (viewer); paid reports,link_out,Periodic,England coalfield areas,Contains Coal Authority information (c) Coal Authority and database right
+UKradon,UKHSA / BGS,https://www.ukradon.org/,UKHSA/BGS terms,link_out,Static,UK,Data (c) UKHSA and BGS
+DfT Road Traffic Statistics,Department for Transport,https://roadtraffic.dft.gov.uk/,OGL v3.0,rest_api,Annual,Great Britain,Contains public sector information licensed under the Open Government Licence v3.0
+NaPTAN,Department for Transport,https://beta-naptan.dft.gov.uk/,OGL v3.0,manual_download,Periodic,Great Britain,Contains public sector information licensed under the Open Government Licence v3.0
+Sustrans National Cycle Network,Sustrans,https://www.sustrans.org.uk/national-cycle-network/,OGL-compatible,rest_api,Periodic,Great Britain,Data (c) Sustrans
+OS Data Hub - Places API,Ordnance Survey,https://osdatahub.os.uk/docs/places/overview,OS Data Hub terms,rest_api,Continuous,Great Britain,Contains OS data (c) Crown copyright and database right
+OS Open Names,Ordnance Survey,https://osdatahub.os.uk/downloads/open/OpenNames,OS OpenData Licence,manual_download,Periodic,Great Britain,Contains OS data (c) Crown copyright and database right
+Code-Point Open,Ordnance Survey,https://osdatahub.os.uk/downloads/open/CodePointOpen,OS OpenData Licence,manual_download,Periodic,Great Britain,Contains OS data (c) Crown copyright and database right
+what3words API,what3words,https://developer.what3words.com/public-api,what3words API terms,rest_api,N/A,Global,Powered by what3words
+OS Maps API,Ordnance Survey,https://osdatahub.os.uk/docs/wmts/overview,OS Data Hub terms,wms,Continuous,Great Britain,Contains OS data (c) Crown copyright and database right
+NUAR,Geoplace / HM Land Registry,https://www.geoplace.co.uk/nuar,Organisational data-sharing agreement required,manual_entry,Continuous,England (rollout),Not integrated without signed agreement - manual entry only
+HM Land Registry Search Service,HM Land Registry,https://eservices.landregistry.gov.uk/eservices/FindAProperty/QuickEnquiryInit.do,Crown copyright / paid per search,link_out,On request,England and Wales,Contains HM Land Registry data (c) Crown copyright
+HM Land Registry Price Paid Data,HM Land Registry,https://www.gov.uk/government/collections/price-paid-data,OGL v3.0,manual_download,Monthly,England and Wales,Contains HM Land Registry data (c) Crown copyright and database right
+Brownfield Land Registers (index),MHCLG / gov.uk,https://www.gov.uk/guidance/brownfield-land-registers,OGL v3.0,link_out,Ad hoc,England,Contains public sector information licensed under the Open Government Licence v3.0
+Neighbourhood Planning Register,Locality,https://neighbourhoodplanning.org/,Publisher terms,link_out,Ad hoc,England,Data (c) Locality
